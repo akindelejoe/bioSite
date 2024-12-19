@@ -1,0 +1,98 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8; /* Light blue-grey background */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #1e3a8a; /* Deep blue header */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #000000; 
+}
+
+/* Main Content Container */
+.content-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White content card */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Heading Styling */
+h1 {
+    font-size: 36px;
+    color: #000; 
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Video Styling */
+.video-wrapper {
+    margin: 20px 0;
+}
+
+.hobby-video {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Paragraph Styling */
+.description {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+/* Back to Home Button */
+.back-home {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #1e3a8a; /* Deep blue button */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.back-home:hover {
+    background-color: #1e3a8a; /* Lighter blue hover */
+    transform: translateY(-3px);
+}

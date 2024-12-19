@@ -1,0 +1,92 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9; /* Light background */
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #163300; /* Dark background */
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: color 0.3s ease, background 0.3s ease;
+}
+
+header nav ul li a:hover{
+    color: #1db233;
+    transform: translateY(-3px);
+}
+
+/* Main Content Styling */
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff; /* White background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+main h1 {
+    font-size: 36px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.hobby-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Paragraph Styling */
+main p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+/* Back Button Styling */
+main a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #000;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+main a:hover {
+    background-color: #000;
+    transform:translateY(-3px);
+}

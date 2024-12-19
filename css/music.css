@@ -1,0 +1,93 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:#ffffff;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #000000; /* Dark background */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+    header nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        padding: 5px 10px;
+        transition: background 0.3s ease;
+    }
+    
+    header a:hover {
+        color:#ffc880;
+        }
+    
+
+/* Main Content */
+.music-container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #000; /* black background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.music-container h1,p {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.music-container .video-wrapper {
+    width: 100%;
+    margin: 20px auto;
+}
+
+.hobby-video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.music-description {
+    font-size: 18px;
+    margin: 20px 0;
+    color: #fff;
+    line-height: 1.8;
+}
+
+/* Back to Home Button */
+.back-home {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #fff;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.back-home:hover {
+    transform: translateY(-3px);
+}

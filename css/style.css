@@ -1,0 +1,214 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light grey background */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #000000; /* Dark background */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: background 0.3s ease;
+}
+
+header nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Main Container Styling */
+main {
+    padding: 20px;
+}
+
+/* Grid Layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between grid items */
+    justify-items: center;
+    padding: 20px;
+    background-color: #ffffff; /* White grid background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* General styles for the grid container */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px; /* Spacing between grid items */
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Styling each grid item */
+.grid-item {
+    text-align: center;
+}
+
+/* Ensuring all images have the same size */
+.grid-item img {
+    width: 100%; /* Make the image responsive */
+    height: 200px; /* Set a fixed height */
+    object-fit: cover;
+    border-radius: 10px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+    .grid-item img:hover{
+        transform: translateY(-10px);
+    }
+
+/* Styling the figcaption */
+.grid-item figcaption {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #333; 
+    font-weight: bold;
+}
+
+
+
+/* About Page Container */
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff; /* White background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-details {
+    flex: 1;
+    padding: 20px;
+    background-color:rgb(72, 124, 142) ;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about-details:hover{
+ transform: translateY(-7px);
+}
+
+.about-details h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.about-details p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+/* Image Section */
+.about-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image img {
+    width: 50%;
+    max-width: 400px;
+    border-radius: 10px;
+    opacity: 0.7; /* Sets the opacity to 70% */
+    transition: opacity 0.5s ease;
+}
+
+
+.about-image img:hover {
+    opacity: 1; /* Restores full opacity on hover */
+}
+
+
+/* Go to Home Button */
+.go-home {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.go-home a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.go-home a:hover {
+    background-color: #555;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
+/*mobile device responsiveness*/
+@media  (min-width:320px) and (max-width:480px){
+}
+
+ /*Responsive Design for Tablets and Larger Screens*/
+ @media (min-width:481px) and (max-width:720px){
+   }
+ 
+ /*Responsive Design for Desktops*/
+ @media (min-width:721px) and (max-width:1290px){
+  
+ }
+ 
+ 
